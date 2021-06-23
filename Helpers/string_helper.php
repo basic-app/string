@@ -21,3 +21,35 @@ if (!function_exists('string_ends_with'))
         return StringHelper::endsWith($haystack, $needle);
     }
 }
+
+if (!function_exists('string_quote'))
+{
+    public function string_quote(string $value) : string
+    {
+        return StringHelper::quote($value);
+    }
+}
+
+if (!function_exists('string_is'))
+{
+    public function string_is($pattern, $value, &$matches = null, $flags = null) : bool
+    {
+        return StringHelper::is($pattern, $value, $matches, $flags);
+    }
+}
+
+if (!function_exists('string_replace_first'))
+{
+    public function string_replace_first(string $search, string $replace, string $subject) : string
+    {
+        return StringHelper::replaceFirst($search, $replace, $subject);
+    }
+}
+
+if (!function_exists('string_replace_last'))
+{
+    public function string_replace_last(string $search, string $replace, string $subject) : string
+    {
+        return StringHelper::replaceLast($search, $replace, $subject);
+    }
+}
