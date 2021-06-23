@@ -4,7 +4,7 @@
  * @license MIT
  * @link https://basic-app.com
  */
-use BasicApp\StringHelper\StringHelper;
+use BasicApp\String\StringHelper;
 
 if (!function_exists('string_starts_with'))
 {

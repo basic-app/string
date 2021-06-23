@@ -4,7 +4,7 @@
  * @license MIT
  * @link https://basic-app.com
  */
-namespace BasicApp\StringHelper;
+namespace BasicApp\String;
 
 class StringHelper extends BaseStringHelper
 {
