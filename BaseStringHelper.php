@@ -19,4 +19,14 @@ abstract class BaseStringHelper
         return false;
     }
 
+    public static function endsWith(string $haystack, string $needle) : bool
+    {
+        if ($needle !== '' && substr($haystack, -strlen($needle)) === (string) $needle)
+        {
+            return true;
+        }
+        
+        return false;
+    }
+
 }
