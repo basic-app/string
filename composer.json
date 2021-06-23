@@ -1,9 +1,9 @@
 {
-    "name": "basic-app/string-helper",
+    "name": "basic-app/string",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "BasicApp\\StringHelper\\" : ""
+            "BasicApp\\String\\" : ""
         }
     }
 }
